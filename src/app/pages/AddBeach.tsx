@@ -47,6 +47,7 @@ function resolveImageUrl(imagePreview: string) {
   else
   {
     return DEFAULT_BEACH_IMAGE;
+    
   }
 
   
