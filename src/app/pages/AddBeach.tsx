@@ -44,7 +44,6 @@ function resolveImageUrl(imagePreview: string) {
   if (imagePreview.startsWith('http://') || imagePreview.startsWith('https://')) {
     return imagePreview;
   }
-
   return DEFAULT_BEACH_IMAGE;
 }
 
