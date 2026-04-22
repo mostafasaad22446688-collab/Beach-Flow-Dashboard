@@ -44,12 +44,8 @@ function resolveImageUrl(imagePreview: string) {
   if (imagePreview.startsWith('http://') || imagePreview.startsWith('https://')) {
     return imagePreview;
   }
-  else
-  {
-    return DEFAULT_BEACH_IMAGE;
-  }
 
-  
+  return DEFAULT_BEACH_IMAGE;
 }
 
 export function AddBeach() {
