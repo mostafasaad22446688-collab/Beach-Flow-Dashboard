@@ -61,7 +61,7 @@ export function AddBeach() {
     closeTime: '',
     pricePerDay: '',
     capacity: '',
-    imageFile: null as File | null,
+    imageFile: null as File | null, 
   });
 
   const handleInputChange = (
